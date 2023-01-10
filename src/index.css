@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-style: normal;
+}
+.container{
+  position: absolute;
+  width: 550px;
+  height: 704px;
+  background-color:#8290794d  ;
+}
+.nav-bar{
+  height: 55px;
+  width: 550px;
+  background: #1e847f;
+}
+.nav-bar h1{
+  position: absolute;
+  width: 130px;
+  height: 18px;
+  left: 200px;
+  top: 20px;
+  font-weight: 900;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.085em;
+  color: #201e20;
+}
+.card{
+  width: 470px;
+  height: 168px;
+  display: flex;
+  margin-bottom: 40px;       
+  flex-direction: column; 
+  position: relative;
+}
+
+img{
+  position: absolute;
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 40px;
+  border-radius: 5px;
+}
+
+/* ADD */
+.card-title{
+  position: absolute;
+  width: 326px;
+  height: 40px;
+  left: 184px;
+  top: 96px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.gglmap {
+  position: absolute;
+  width: 106px;
+  height: 13px;
+  left: 267px;
+  top: 79px;  
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  
+}
+.card-location{
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  left: 195px;
+  top: 79px;
+  font-weight: 600;
+  font-size: 12.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.dates{
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 143px;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.description{
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  left: 184px;
+  top: 160px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+
+/* ADD */
+
+
+/* .img-card {
+  position: absolute;
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  border-radius: 5px;
+} */
